@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BillModel.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="BusinessModel.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="HMOLicenseModel.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceModel.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyModel.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="TariffModel.cpp">
+      <Filter>Source\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="OCRService.cpp">
+      <Filter>Source\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="DashboardView.cpp">
+      <Filter>Source\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="LandlordManagementSystem.cpp">
+      <Filter>Source\Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="LandlordManagementSystem.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{39c3aa09-4f45-48b7-b71f-5d4a27dfacaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{ce72d81a-539e-4679-a4f5-6787286afa82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Views">
+      <UniqueIdentifier>{99c13cc4-4ed3-466c-899c-aa69d757793f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Models">
+      <UniqueIdentifier>{6c4ac2e9-a67c-4042-ad36-333c563f7d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Controllers">
+      <UniqueIdentifier>{ebc9c0ad-c525-4f20-8dbd-6e6f32105a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Services">
+      <UniqueIdentifier>{69bc5bc7-effb-4bb0-b47c-dae0c49b47be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Views">
+      <UniqueIdentifier>{b1f2fc20-895f-491a-9b63-398497f3a239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Models">
+      <UniqueIdentifier>{1e9c6924-e351-4ae9-8e3f-dce0c10d3bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Controllers">
+      <UniqueIdentifier>{5ec6d6d4-c1d1-4881-bf1a-26b0629f5c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Services">
+      <UniqueIdentifier>{9bd8d6ca-9cf0-4519-bee0-83f05eec37c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BillModel.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="BusinessModel.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="HMOLicenseModel.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="InsuranceModel.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyModel.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="TariffModel.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="OCRService.h">
+      <Filter>Headers\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="DashboardView.h">
+      <Filter>Headers\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="LandlordManagementSystem.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="LandlordManagementSystem.h">
+      <Filter>Headers\Views</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

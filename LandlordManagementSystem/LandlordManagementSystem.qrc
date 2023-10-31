@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/LandlordManagementSystem">
+        <file>business.ui</file>
+        <file>LandlordManagementSystem.ui</file>
+    </qresource>
+</RCC>
